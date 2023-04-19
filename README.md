@@ -1,4 +1,4 @@
 # brouter
 ROUTER BRUTE FORCE [BETA]
 
-<br> usage: python3 app.py <pass list> </br>
+<h2> USAGE: python3 app.py <pass list> </h2>
