@@ -1,5 +1,4 @@
 import requests
-import colorama
 from colorama import Fore,Style
 def exec(passlist):
     url = "http://192.168.1.1:80/login/login-page.cgi"
