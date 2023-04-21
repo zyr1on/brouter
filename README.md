@@ -2,7 +2,7 @@
 ROUTER BRUTE FORCE [BETA]
 <br>
 
-requirements:
+requirements: <br> 
 -requests <br>
 -colorama <br>
 -python3+
