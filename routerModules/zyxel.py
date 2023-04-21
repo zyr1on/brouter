@@ -11,7 +11,7 @@ def exec(passlist):
         req = requests.post(url,headers=headers,data=data,allow_redirects=False)
         print(Fore.YELLOW + "[-] Trying",pass_, req.status_code)
         if not req.status_code == 200:
-            print(Fore.RED + "[?Possibly] " , pass_)
+            print(Fore.RED + "[Possibly] " , pass_)
             possible_list.append("[+] " + pass_)    
     print("\nPossible Passwords")
     print(Fore.GREEN, *possible_list,sep="\n")
