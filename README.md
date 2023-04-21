@@ -5,7 +5,7 @@ ROUTER BRUTE FORCE [BETA]
 requirements: <br> 
 -requests <br>
 -colorama <br>
--python3+
+-python3
 
 <h3> USAGE: python3 app.py -pass list-
 
