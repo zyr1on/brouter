@@ -14,4 +14,4 @@ def exec(passlist):
             print(Fore.RED + "[Possibly] " , pass_)
             possible_list.append("[+] " + pass_)    
     print("\nPossible Passwords")
-    print(Fore.GREEN, *possible_list,sep="\n")
+    print(Fore.GREEN , *possible_list,sep="\n")
